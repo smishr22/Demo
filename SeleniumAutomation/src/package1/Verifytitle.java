@@ -35,6 +35,8 @@ public class Verifytitle {
 		search.sendKeys("mom");
 		Thread.sleep(1000);
 		System.out.println(driver.getTitle());
+		System.out.println("hi");
+		System.out.println("how are you");
 		/*System.out.println(driver.getTitle());
 		driver.navigate().back();
 		driver.findElementByPartialLinkText("Images").click();;
